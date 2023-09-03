@@ -1,6 +1,6 @@
 ## 前言
 
-本项目hardhat作为开发工具流，前端使用next.js，智能合约使用solidity，数据存储索引由IPFS加TheGraph框架组成。 与传统的web开发技术相比，Dapp在核心实现在并不复杂，只是加入了区块链对传统的存储方案做了一个改造。
+本项目hardhat作为开发工具流，前端使用next.js，智能合约使用solidity，数据存储索引由IPFS加TheGraph框架组成。 
 ### 一、Hardhat工具流安装
 1. 要创建一个新的Hardhat项目，首先需要安装Hardhat和Node.js。Node.js是一个JavaScript运行时环境，它可以计算机上运行JavaScript代码。首先在官网上获取最新的稳定版Node.js，然后在文件夹创建项目目录，执行“npm install –global yarn”把npm替换为yarn，执行“yarn add hardhat”在安装Hardhat。
 2. 安装完成后，在创建好的目录中使用hardhat运行“yarn hardhat create”，来创建一个新的Hardhat项目。如图5.1所示，选择对应模板后，Hardhat会在当前目录中创建一个新的项目，并安装所有必要的依赖项。
